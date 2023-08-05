@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.contenidoPrincipal{
+    flex: 1;
+}
+
+header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-image: url(../imagenes/header\ consultor\ bi.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    padding: 20px;
+}
+.backgroundOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+.headerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+.logoEmpresa img{
+    /* width: 300px;
+    height:200px; */
+    width: 20rem;
+}
+.titulo{
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+.linkNavHeader ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.linkNavHeader li{
+    margin-right: 10px;
+}
+
+.linkNavHeader a{
+    text-decoration: none;
+    color: #ECF0F1;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.seccionContenido{
+    display: flex;
+    align-items: flex-start;
+}
+.textoIzq{
+    flex: 1;
+    padding: 50px;
+    margin-top: 5px;
+}
+.cajaForm{
+    flex: 1;
+    /* padding-left: 20px; */
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* margin-right: 300px; */
+}
+.formInicio{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.formInicio h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formInicio label{
+    width: 200px;
+    text-align: left;
+    margin-right: 10px;
+}
+.formInicio input, textarea{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.formInicio textarea{
+    height: 100px;
+}
+
+footer{
+    background-color: black;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 30px; */
+    margin-top: 200px;
+
+}
+.contactoFooter {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7E9;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+}
+
+.logoRedesSociales li {
+    list-style: none;
+    padding: 10px;
+    margin: 0 5px;
+    display: flex;
+    display: inline-block;
+}
+
+.logoRedesSociales a {
+    display: block;
+}
+
+a img{
+    width: 20px;
+    height: auto;
+}
+.logoConsultorBi{
+    width: auto;
+    height: auto;
+}
+
+.datosFooter{
+    padding: 8px;
+}
+
+.imagenNosotros{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.txtNosotros{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.elEquipo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.txtElEquipo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.imgElEquipo{
+    display: block;
+    margin: 0 auto;
+}
+h3{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.txtServicios{
+    margin-left: 50px;
+}
+.contenedorImagenCasoDeUso{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 30px;
+}
+.imagenCasoDeUso{
+    width: 400px;
+    height: 280px;
+    margin-bottom: 60px;
+}
+.cajaCasoDeUso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cajaCasoDeUso p{
+    margin-bottom: 200px;
+}
+.contactanos{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 220px;
+}
+.mapa{
+    margin-left: 120px;
+}

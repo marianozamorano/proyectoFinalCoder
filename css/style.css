@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.logo{
+    /* width: 10rem; */
+    width: 300px;
+    height: 200px;
+}
+
+header {
+    background-image: url(../imagenes/headerConsultorBi.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.fuentes{
+    font-size: 1.1rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fuentes li a{
+    color: #ECF0F1;
+}
+
+.fuentes li a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.titulo{
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+.customTextArea{
+    height: 200px !important;
+}
+
+/* HERO */
+
+.colorBtn{
+    background-color: #83c5be;
+    color: #fff;
+}
+
+.colorBtn:hover{
+    background-color: #006d77;
+    color: #fff;
+}
+
+.colorButton{
+    color: white !important;
+}
+
+/* Cambia el color del ícono de hamburguesa a blanco */
+.navbar-toggler-icon.white-icon {
+    color: white; /* Cambia el color a tu preferencia */
+}
+
+/* CAROUSEL */
+
+.imgCarousel{
+    height: 350px;
+    object-fit: cover;
+}
+
+.titulosProductos{
+    background-color: #c1101a;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.titulosProductos h2{
+    font-size: 3rem;
+}
