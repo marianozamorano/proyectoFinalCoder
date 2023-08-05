@@ -19,7 +19,7 @@ header{
     display: flex;
     position: relative;
     align-items: center;
-    background-image: url(../imagenes/header\ consultor\ bi.png);
+    background-image: url(../imagenes/headerConsultorBi.png);
     background-size: cover;
     background-position: center;
     opacity: 0.9;
