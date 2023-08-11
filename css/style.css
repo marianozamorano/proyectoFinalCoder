@@ -7,7 +7,6 @@ body{
 /* HEADER */
 
 .logo{
-    /* width: 10rem; */
     width: 300px;
     height: 200px;
 }
@@ -30,7 +29,9 @@ header {
 }
 
 .fuentes li a:hover{
-    background-color: black;
+    background-color: #343a40;
+    border-radius: 5px;
+    opacity: 0.8;
     color: #fff;
 }
 
@@ -59,10 +60,14 @@ header {
     color: white !important;
 }
 
-/* Cambia el color del ícono de hamburguesa a blanco */
-.navbar-toggler-icon.white-icon {
-    color: white; /* Cambia el color a tu preferencia */
+
+.colorBurger{
+    color: white;
+    border-color: white;
+    background-color: white;
+    opacity: 0.6;
 }
+
 
 /* CAROUSEL */
 
