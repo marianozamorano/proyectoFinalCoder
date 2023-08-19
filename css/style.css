@@ -36,6 +36,7 @@ header {
 }
 
 .titulo{
+    font-size: 3rem;
     text-align: center;
     margin: 0;
     margin-top: 20px;
@@ -87,4 +88,35 @@ header {
 
 .titulosProductos h2{
     font-size: 3rem;
+}
+
+.seccionContenido{
+    display: flex;
+    align-items: flex-start;
+}
+
+.espacios{
+    padding: 40px;
+}
+
+.elEquipo{
+    text-align: center;
+}
+
+.txtElEquipo{
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.imgElEquipo{
+    display: flex;
+    justify-content: center;
+}
+
+.fuenteNosotros{
+    font-size: 3rem;
+}
+
+.fuenteCasos{
+    font-size: 2rem;
 }
