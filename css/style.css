@@ -111,6 +111,8 @@ header {
 .imgElEquipo{
     display: flex;
     justify-content: center;
+    padding: 20px;
+    margin: 0 30px;
 }
 
 .fuenteNosotros{
@@ -119,4 +121,9 @@ header {
 
 .fuenteCasos{
     font-size: 2rem;
+}
+
+.imagenElEquipo {
+    display: flex;
+    justify-content: center;
 }
