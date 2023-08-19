@@ -4,17 +4,17 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER */
-
-.logo{
-    width: 300px;
-    height: 200px;
-}
+/*********HEADER**********/
 
 header {
     background-image: url(../imagenes/headerConsultorBi.png);
     background-size: cover;
     background-position: center;
+}
+
+.logo{
+    width: 300px;
+    height: 200px;
 }
 
 .fuentes{
@@ -41,11 +41,12 @@ header {
     margin: 0;
     margin-top: 20px;
 }
+
+/*********FORMULARIO**********/
+
 .customTextArea{
     height: 200px !important;
 }
-
-/* HERO */
 
 .colorBtn{
     background-color: #83c5be;
@@ -56,6 +57,8 @@ header {
     background-color: #006d77;
     color: #fff;
 }
+
+/*******MENU HAMBURGUESA***********/
 
 .colorButton{
     color: white !important;
@@ -69,43 +72,10 @@ header {
     opacity: 0.6;
 }
 
+/**********NOSOTROS************/
 
-/* CAROUSEL */
-
-.imgCarousel{
-    height: 350px;
-    object-fit: cover;
-}
-
-.titulosProductos{
-    background-color: #c1101a;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem;
-}
-
-.titulosProductos h2{
+.fuenteNosotros{
     font-size: 3rem;
-}
-
-.seccionContenido{
-    display: flex;
-    align-items: flex-start;
-}
-
-.espacios{
-    padding: 40px;
-}
-
-.elEquipo{
-    text-align: center;
-}
-
-.txtElEquipo{
-    padding: 10px 50px;
-    text-align: center;
 }
 
 .imgElEquipo{
@@ -115,15 +85,8 @@ header {
     margin: 0 30px;
 }
 
-.fuenteNosotros{
-    font-size: 3rem;
-}
+/*******SERVICIOS**********/
 
 .fuenteCasos{
     font-size: 2rem;
-}
-
-.imagenElEquipo {
-    display: flex;
-    justify-content: center;
 }
