@@ -1,19 +1,16 @@
-
-
-
 @mixin anclas {
-    li a {
-        color: #ECF0F1;
-  
-        &:hover {
-          background-color: #343a40;
-          border-radius: 5px;
-          opacity: 0.8;
-          color: #fff;
-        }
-      }
+  li a {
+    color: #ECF0F1;
+
+    &:hover {
+      background-color: #343a40;
+      border-radius: 5px;
+      opacity: 0.8;
+      color: #fff;
+    }
+  }
 }
 
 .estiloAnclas {
-    @include anclas;
+  @include anclas;
 }

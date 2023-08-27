@@ -1,48 +1,47 @@
 /*********FORMULARIO**********/
 
 .customTextArea {
-    height: 200px !important;
-  }
-  
-  .colorBtn {
-    background-color: #83c5be;
+  height: 200px !important;
+}
+
+.colorBtn {
+  background-color: #83c5be;
+  color: #fff;
+
+  &:hover {
+    background-color: #006d77;
     color: #fff;
-  
-    &:hover {
-      background-color: #006d77;
-      color: #fff;
-    }
   }
-  
-  /*******MENU HAMBURGUESA***********/
-  
-  .colorButton {
-    color: white !important;
-  }
-  
-  .colorBurger {
-    color: white;
-    border-color: white;
-    background-color: white;
-    opacity: 0.6;
-  }
-  
-  /**********NOSOTROS************/
-  
-  .fuenteNosotros {
-    font-size: 3rem;
-  }
-  
-  .imgElEquipo {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: 0 30px;
-  }
-  
-  /*******SERVICIOS**********/
-  
-  .fuenteCasos {
-    font-size: 2rem;
-  }
-  
+}
+
+/*******MENU HAMBURGUESA***********/
+
+.colorButton {
+  color: white !important;
+}
+
+.colorBurger {
+  color: white;
+  border-color: white;
+  background-color: white;
+  opacity: 0.6;
+}
+
+/**********NOSOTROS************/
+
+.fuenteNosotros {
+  font-size: 3rem;
+}
+
+.imgElEquipo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 30px;
+}
+
+/*******SERVICIOS**********/
+
+.fuenteCasos {
+  font-size: 2rem;
+}
