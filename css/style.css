@@ -15,15 +15,6 @@ header .fuentes {
   text-transform: uppercase;
   font-weight: bold;
 }
-header .fuentes li a {
-  color: #ECF0F1;
-}
-header .fuentes li a:hover {
-  background-color: #343a40;
-  border-radius: 5px;
-  opacity: 0.8;
-  color: #fff;
-}
 
 .titulo {
   font-size: 3rem;
@@ -92,6 +83,14 @@ body {
   border-radius: 5px;
   opacity: 0.8;
   color: #fff;
+}
+
+.wsp {
+  height: 80px;
+  width: 80px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
