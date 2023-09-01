@@ -66,6 +66,15 @@ header .fuentes {
   font-size: 2rem;
 }
 
+.lineaHorizontal {
+  width: 100%;
+  border-top: 1px solid #DEE2E6;
+}
+
+.contactoFooter {
+  width: 100px !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -86,11 +95,12 @@ body {
 }
 
 .wsp {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   position: fixed;
   bottom: 40px;
   right: 40px;
+  opacity: 0.75;
 }
 
 /*# sourceMappingURL=style.css.map */
